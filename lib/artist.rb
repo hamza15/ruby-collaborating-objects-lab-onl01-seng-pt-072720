@@ -28,7 +28,8 @@ class Artist
     if self.all.include?(name)
       self.
     else
-      
+      self.name = Artist.new(name)
+    end
   end 
       
   
