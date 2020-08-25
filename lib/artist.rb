@@ -25,7 +25,8 @@ class Artist
   end
   
   def self.find_or_create_by_name(name)
-    if (self.name.nil?)
+    if self.all.include?(name)
+      self.
       
   
 end
