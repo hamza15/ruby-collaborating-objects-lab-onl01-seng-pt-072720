@@ -22,5 +22,8 @@ class Song
     song.artist = filename.split(" - ")[1]
     song
   end 
+  
+  def artist_name(name)
+    
 
 end
