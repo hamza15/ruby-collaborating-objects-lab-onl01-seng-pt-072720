@@ -24,8 +24,8 @@ class Artist
     song.artist = self
   end
   
-  def self.find_or_create_by_name
-    if (self.artist.nil?)
+  def self.find_or_create_by_name(name)
+    if (self.name.nil?)
       
   
 end
