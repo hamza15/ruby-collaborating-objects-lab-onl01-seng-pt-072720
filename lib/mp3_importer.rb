@@ -9,5 +9,9 @@ class MP3Importer
     Dir.entries(@path).select{|file| file.include?(".mp3")}
   end
   
+  def import
+    self.files.each do |file|
+      
+  end
   
 end
