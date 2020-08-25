@@ -36,6 +36,7 @@ class Artist
     names = Song.all.select {|song| song.artist == self}
     names.each do |name|
       puts "#{name}"
+    end
   end
     
       
